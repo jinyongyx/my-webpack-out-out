@@ -23,5 +23,9 @@ module.exports = {
         new CleanWebpackPlugin()
     ],
 
-    devtool:"inlin-source-map"
+    devtool:"inlin-source-map",
+
+    devServer:{
+        contentBase:"./dist"
+    }
 }
