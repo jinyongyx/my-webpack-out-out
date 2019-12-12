@@ -1,0 +1,25 @@
+{
+  "name": "my-webpack-out-out",
+  "version": "1.0.0",
+  "description": "webpack管理输出学习",
+  "preview": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinyongyx/my-webpack-out-out.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinyongyx/my-webpack-out-out/issues"
+  },
+  "homepage": "https://github.com/jinyongyx/my-webpack-out-out#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
